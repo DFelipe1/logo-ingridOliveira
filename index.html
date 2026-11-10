@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Apresentação da identidade visual de Ingrid Oliveira: conceito, assinatura, paleta e aplicações da marca.">
+<meta property="og:title" content="Ingrid Oliveira — Apresentação da marca">
+<meta property="og:description" content="Informação com personalidade. Conheça a identidade visual de Ingrid Oliveira.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#F05AA6">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<title>Ingrid Oliveira — Apresentação da marca</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#211B2B;--paper:#F5F3FA;--pink:#F05AA6;--sun:#FFD84D;--sand:#EAE6E3;--r:40px;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+body{margin:0;background:var(--ink);color:var(--ink);font:400 clamp(16px,1.2vw+10px,19px)/1.6 Inter,system-ui,sans-serif;overflow-x:hidden}
+img{max-width:100%;display:block}
+section{position:relative;padding:clamp(72px,12vw,160px) clamp(20px,6vw,96px);border-radius:var(--r) var(--r) 0 0;margin-top:calc(var(--r) * -1)}
+h1,h2,h3{margin:0;font-weight:900;letter-spacing:-.04em;line-height:.95}
+h2{font-size:clamp(2.4rem,7.5vw,6.5rem)}
+p{margin:0 0 1.1em;max-width:58ch}
+.wrap{max-width:1200px;margin:0 auto}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:clamp(28px,5vw,80px);align-items:start}
+.w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.1em;margin-bottom:-.1em}
+.w>span{display:inline-block}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+#bar{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;height:5px;background:var(--sun);transform:scaleX(0);transform-origin:0 50%;z-index:50}
+
+#hero{min-height:100svh;background:var(--pink);display:grid;place-items:center;text-align:center;padding-block:48px;overflow:hidden;border-radius:0;margin-top:0}
+.logo{width:min(78vw,820px);perspective:900px}
+.logo img{width:100%;transform:rotateX(var(--ry,0deg)) rotateY(var(--rx,0deg));transition:transform .15s ease-out}
+#hero p{margin:20px auto 0;font-weight:500}
+
+.band{background:var(--sun);overflow:hidden;padding:clamp(18px,3vw,36px) 0;border-radius:var(--r) var(--r) 0 0;margin-top:calc(var(--r) * -1);position:relative}
+.mq{white-space:nowrap;font-weight:900;font-size:clamp(2.2rem,8vw,6.5rem);letter-spacing:-.04em;line-height:1;width:max-content}
+.mq i{font-style:normal;color:var(--pink);margin:0 .35em}
+
+#intro{background:var(--sand)}
+#intro h2{max-width:9ch}
+
+#conceito{background:var(--ink);color:var(--paper)}
+#conceito h2{margin-bottom:clamp(32px,5vw,64px);max-width:12ch}
+.duel{position:relative;height:min(68vh,540px);overflow:hidden;border-radius:28px;touch-action:pan-y;user-select:none;-webkit-user-select:none;--x:50%;margin-bottom:clamp(32px,5vw,64px);cursor:ew-resize}
+.pane{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding:0 clamp(20px,5vw,64px);color:var(--ink)}
+.pane h3{font-size:clamp(2rem,7vw,6rem)}
+.pane span{font-weight:500;margin-top:10px}
+.pane.a{background:var(--paper)}
+.pane.b{background:var(--pink);align-items:flex-end;text-align:right;clip-path:inset(0 0 0 var(--x))}
+.knob{position:absolute;top:50%;left:var(--x);width:68px;height:68px;margin:-34px 0 0 -34px;border-radius:50%;background:var(--sun);border:5px solid var(--ink);font-weight:900;font-size:34px;line-height:1;display:grid;place-items:center;color:var(--ink);z-index:2}
+.duel::after{content:"";position:absolute;top:0;bottom:0;left:var(--x);width:5px;margin-left:-2.5px;background:var(--ink);z-index:1}
+.tags{font-weight:900;font-size:clamp(1.4rem,3vw,2.2rem);letter-spacing:-.03em;color:var(--sun)}
+
+#assinatura{background:var(--paper)}
+#assinatura h2{margin-bottom:clamp(32px,5vw,64px);max-width:10ch}
+.stage{--bg:var(--pink);background:var(--bg);border-radius:28px;display:grid;place-items:center;padding:clamp(32px,8vw,120px) 24px;margin:clamp(40px,6vw,80px) 0 16px;transition:background .5s}
+.stage img{width:min(70%,560px)}
+.sw{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:12px}
+.sw button{font:inherit;cursor:pointer;border:2px solid var(--ink);border-radius:18px;padding:80px 16px 16px;text-align:left;font-size:.8rem;line-height:1.45;min-height:44px}
+.sw b{display:block;font-size:1.15rem;font-weight:900}
+.sw button[aria-pressed=true]{outline:4px solid var(--ink);outline-offset:3px}
+
+#aplicacoes{background:var(--ink);color:var(--paper);height:100svh;padding:0;display:flex;align-items:center;overflow-x:auto;border-radius:0;margin-top:0}
+.track{display:flex;gap:clamp(20px,4vw,56px);padding:0 clamp(20px,6vw,96px);width:max-content;align-items:center}
+.p{width:min(84vw,900px);flex:none}
+.p.t{width:min(84vw,560px)}
+.scene{height:min(66vh,620px);border-radius:28px;display:grid;background:var(--bg);overflow:hidden}
+.scene img{width:100%;height:100%;object-fit:contain;padding:4%}
+.scene img.cover{object-fit:cover;padding:0}
+.p figcaption{margin-top:14px}
+
+#selo{background:var(--pink);text-align:center}
+#selo h2{margin:0 auto 24px;max-width:11ch}
+#selo p{margin-inline:auto}
+#seal{width:min(84vw,520px);margin:clamp(32px,5vw,64px) auto 0;display:block;overflow:visible}
+
+#fim{background:var(--paper);min-height:90svh;display:grid;align-items:center;overflow:hidden}
+#fim .cols{align-items:center}
+#fim h2{font-size:clamp(3rem,13vw,11rem)}
+#fim p{margin-top:24px;font-weight:500}
+#fim a{color:var(--ink);font-weight:900;text-decoration:underline;text-decoration-color:var(--pink);text-decoration-thickness:.18em;text-underline-offset:.2em;transition:background .2s}
+#fim a:hover{background:var(--sun)}
+#fim img{width:min(100%,460px);margin-inline:auto;max-height:70vh;object-fit:contain;transform-origin:30% 100%}
+@media (prefers-reduced-motion:reduce){#bar{display:none}}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+
+<section id="hero">
+  <div id="hin">
+    <div class="logo"><img id="lg" src="assets/logo.webp" alt="Logo Ingrid Oliveira: ponto de exclamação amarelo à esquerda do nome em letras brancas com contorno escuro"></div>
+    <p>Apresentação da marca</p>
+  </div>
+</section>
+
+<div class="band" aria-hidden="true"><div class="mq">Ingrid Oliveira<i>!</i>Ingrid Oliveira<i>!</i>Ingrid Oliveira<i>!</i>Ingrid Oliveira<i>!</i>Ingrid Oliveira<i>!</i></div></div>
+
+<section id="intro" style="margin-top:0;border-radius:0">
+  <div class="wrap cols">
+    <h2 data-s>Uma identidade, muitas histórias.</h2>
+    <div data-r>
+      <p>Ingrid Oliveira é uma marca pessoal construída para acompanhar a trajetória de uma comunicadora que transita entre o jornalismo, a cultura e o entretenimento.</p>
+      <p>O desafio foi desenvolver uma identidade que transmitisse profissionalismo sem abrir mão da personalidade, criando uma presença visual contemporânea, expressiva e reconhecível.</p>
+    </div>
+  </div>
+</section>
+
+<section id="conceito">
+  <div class="wrap">
+    <h2 data-s>Informação com personalidade.</h2>
+    <div class="duel" id="duel" data-r>
+      <div class="pane a"><h3>Credibilidade</h3><span>do jornalismo</span></div>
+      <div class="pane b"><h3>Energia</h3><span>do entretenimento</span></div>
+      <div class="knob" id="knob" role="slider" tabindex="0" aria-label="Arraste entre credibilidade e energia" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">!</div>
+    </div>
+    <div class="cols">
+      <div data-r>
+        <p>A proposta parte do encontro entre dois universos: a credibilidade do jornalismo e a energia do entretenimento.</p>
+        <p>Uma identidade que não se limita a um único formato de comunicação, permitindo que Ingrid explore diferentes pautas, histórias e experiências culturais sem perder sua essência.</p>
+      </div>
+      <div class="tags" data-r>Profissional.<br>Contemporânea.<br>Expressiva.</div>
+    </div>
+  </div>
+</section>
+
+<section id="assinatura">
+  <div class="wrap">
+    <h2 data-s>O nome como protagonista.</h2>
+    <div class="cols" data-r>
+      <p>A construção da marca prioriza a força tipográfica e a identificação direta com Ingrid Oliveira.</p>
+      <p>Com uma linguagem editorial contemporânea, a assinatura busca transmitir presença e personalidade sem recorrer a símbolos literais do jornalismo.</p>
+      <p>Uma solução visual simples, marcante e preparada para acompanhar diferentes momentos de sua trajetória profissional.</p>
+    </div>
+    <div class="stage" id="stage" data-r><img id="lg2" alt="Logo sobre a cor selecionada"></div>
+    <p data-r style="margin-top:40px">A combinação cromática equilibra sobriedade e expressividade, conectando o posicionamento profissional ao universo dinâmico da cultura e do entretenimento. Toque em uma cor para ver o logo sobre ela.</p>
+    <div class="sw" id="sw" data-r></div>
+  </div>
+</section>
+
+<section id="aplicacoes">
+  <div class="track" id="track">
+    <div class="p t"><h2 data-e>A marca em uso.</h2></div>
+    <figure class="p" style="margin:0"><div class="scene" style="--bg:#F05AA6"><img src="assets/mic.webp" alt="Microfone de reportagem rosa com o selo da marca em cada face"></div><figcaption>O selo ocupa as faces do microfone de reportagem.</figcaption></figure>
+    <figure class="p" style="margin:0"><div class="scene" style="--bg:#FFD84D"><img src="assets/shirt.webp" alt="Camiseta rosa com o logo no peito"></div><figcaption>O logo na versão compacta, no peito do uniforme.</figcaption></figure>
+    <figure class="p" style="margin:0"><div class="scene" style="--bg:#E6E6E8"><img class="cover" src="assets/cards.webp" alt="Pilha de cartões rosa com o selo da marca"></div><figcaption>Cartões de apresentação com o selo em rosa e amarelo.</figcaption></figure>
+  </div>
+</section>
+
+<section id="selo">
+  <h2 data-s>O ponto de exclamação.</h2>
+  <p data-r>O símbolo funciona sozinho e vira o selo de repórter que aparece nos materiais da marca.</p>
+  <svg id="seal" viewBox="0 0 2856 2855" role="img" aria-label="Selo Repórter Ingrid Oliveira com ponto de exclamação amarelo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none"><g filter="url(#filter0_d_72_3)">
+<use xlink:href="#stroke0_72_3" fill="#FFD84D"/>
+<mask id="sk1" maskUnits="userSpaceOnUse" x="1109.33" y="465.001" width="642" height="1928" fill="black">
+<rect fill="white" x="1109.33" y="465.001" width="642" height="1928"/>
+<use xlink:href="#stroke0_72_3"/>
+</mask>
+<path d="M1450.08 2355C1377.58 2355 1315.33 2329.37 1263.34 2278.11C1211.35 2226.11 1185.72 2163.87 1186.45 2091.37C1185.72 2019.6 1211.35 1958.09 1263.34 1906.83C1315.33 1855.57 1377.58 1829.94 1450.08 1829.94C1519.65 1829.94 1580.8 1855.57 1633.52 1906.83C1686.25 1958.09 1712.98 2019.6 1713.71 2091.37C1712.98 2139.7 1700.16 2184.01 1675.26 2224.28C1651.1 2263.83 1619.24 2295.68 1579.7 2319.85C1540.15 2343.28 1496.95 2355 1450.08 2355ZM1438.35 1778.49C1533.29 1778.49 1596.86 1818.17 1616.69 1832.48C1619.33 1834.38 1623.22 1832.43 1623.17 1829.18L1604.16 562.385C1603.65 528.256 1575 501.321 1540.9 502.915L1204.09 518.661C1169.83 520.263 1143.76 550.024 1146.69 584.2L1254.89 1846.42C1255.17 1849.74 1259.42 1851.27 1261.82 1848.95C1280.82 1830.55 1343.02 1778.49 1438.35 1778.49Z" stroke-width="74.2" stroke="#211B2B" mask="url(#sk1)"/>
+</g><g id="spin" fill="#211B2B"><use href="#g82" transform="translate(1427.7 1427.5) rotate(-52.022) translate(0 -1260) scale(0.08545 -0.08545) translate(-663.50 0)"/><use href="#g69" transform="translate(1427.7 1427.5) rotate(-47.040) translate(0 -1260) scale(0.08545 -0.08545) translate(-617.50 0)"/><use href="#g80" transform="translate(1427.7 1427.5) rotate(-42.083) translate(0 -1260) scale(0.08545 -0.08545) translate(-657.00 0)"/><use href="#g211" transform="translate(1427.7 1427.5) rotate(-36.475) translate(0 -1260) scale(0.08545 -0.08545) translate(-785.00 0)"/><use href="#g82" transform="translate(1427.7 1427.5) rotate(-30.841) translate(0 -1260) scale(0.08545 -0.08545) translate(-663.50 0)"/><use href="#g84" transform="translate(1427.7 1427.5) rotate(-25.661) translate(0 -1260) scale(0.08545 -0.08545) translate(-668.50 0)"/><use href="#g69" transform="translate(1427.7 1427.5) rotate(-20.659) translate(0 -1260) scale(0.08545 -0.08545) translate(-617.50 0)"/><use href="#g82" transform="translate(1427.7 1427.5) rotate(-15.677) translate(0 -1260) scale(0.08545 -0.08545) translate(-663.50 0)"/><use href="#g73" transform="translate(1427.7 1427.5) rotate(-9.884) translate(0 -1260) scale(0.08545 -0.08545) translate(-279.00 0)"/><use href="#g78" transform="translate(1427.7 1427.5) rotate(-5.785) translate(0 -1260) scale(0.08545 -0.08545) translate(-774.50 0)"/><use href="#g71" transform="translate(1427.7 1427.5) rotate(0.204) translate(0 -1260) scale(0.08545 -0.08545) translate(-765.50 0)"/><use href="#g82" transform="translate(1427.7 1427.5) rotate(5.761) translate(0 -1260) scale(0.08545 -0.08545) translate(-663.50 0)"/><use href="#g73" transform="translate(1427.7 1427.5) rotate(9.428) translate(0 -1260) scale(0.08545 -0.08545) translate(-279.00 0)"/><use href="#g68" transform="translate(1427.7 1427.5) rotate(13.388) translate(0 -1260) scale(0.08545 -0.08545) translate(-739.00 0)"/><use href="#g79" transform="translate(1427.7 1427.5) rotate(21.441) translate(0 -1260) scale(0.08545 -0.08545) translate(-785.00 0)"/><use href="#g76" transform="translate(1427.7 1427.5) rotate(26.746) translate(0 -1260) scale(0.08545 -0.08545) translate(-579.00 0)"/><use href="#g73" transform="translate(1427.7 1427.5) rotate(30.085) translate(0 -1260) scale(0.08545 -0.08545) translate(-279.00 0)"/><use href="#g86" transform="translate(1427.7 1427.5) rotate(33.995) translate(0 -1260) scale(0.08545 -0.08545) translate(-726.00 0)"/><use href="#g69" transform="translate(1427.7 1427.5) rotate(39.220) translate(0 -1260) scale(0.08545 -0.08545) translate(-617.50 0)"/><use href="#g73" transform="translate(1427.7 1427.5) rotate(42.708) translate(0 -1260) scale(0.08545 -0.08545) translate(-279.00 0)"/><use href="#g82" transform="translate(1427.7 1427.5) rotate(46.375) translate(0 -1260) scale(0.08545 -0.08545) translate(-663.50 0)"/><use href="#g65" transform="translate(1427.7 1427.5) rotate(51.779) translate(0 -1260) scale(0.08545 -0.08545) translate(-726.00 0)"/><use href="#g82" transform="translate(1427.7 1427.5) rotate(47.259) translate(0 1387) scale(0.08545 -0.08545) translate(-663.50 0)"/><use href="#g69" transform="translate(1427.7 1427.5) rotate(42.732) translate(0 1387) scale(0.08545 -0.08545) translate(-617.50 0)"/><use href="#g80" transform="translate(1427.7 1427.5) rotate(38.229) translate(0 1387) scale(0.08545 -0.08545) translate(-657.00 0)"/><use href="#g211" transform="translate(1427.7 1427.5) rotate(33.135) translate(0 1387) scale(0.08545 -0.08545) translate(-785.00 0)"/><use href="#g82" transform="translate(1427.7 1427.5) rotate(28.017) translate(0 1387) scale(0.08545 -0.08545) translate(-663.50 0)"/><use href="#g84" transform="translate(1427.7 1427.5) rotate(23.311) translate(0 1387) scale(0.08545 -0.08545) translate(-668.50 0)"/><use href="#g69" transform="translate(1427.7 1427.5) rotate(18.768) translate(0 1387) scale(0.08545 -0.08545) translate(-617.50 0)"/><use href="#g82" transform="translate(1427.7 1427.5) rotate(14.241) translate(0 1387) scale(0.08545 -0.08545) translate(-663.50 0)"/><use href="#g73" transform="translate(1427.7 1427.5) rotate(8.979) translate(0 1387) scale(0.08545 -0.08545) translate(-279.00 0)"/><use href="#g78" transform="translate(1427.7 1427.5) rotate(5.255) translate(0 1387) scale(0.08545 -0.08545) translate(-774.50 0)"/><use href="#g71" transform="translate(1427.7 1427.5) rotate(-0.185) translate(0 1387) scale(0.08545 -0.08545) translate(-765.50 0)"/><use href="#g82" transform="translate(1427.7 1427.5) rotate(-5.233) translate(0 1387) scale(0.08545 -0.08545) translate(-663.50 0)"/><use href="#g73" transform="translate(1427.7 1427.5) rotate(-8.565) translate(0 1387) scale(0.08545 -0.08545) translate(-279.00 0)"/><use href="#g68" transform="translate(1427.7 1427.5) rotate(-12.162) translate(0 1387) scale(0.08545 -0.08545) translate(-739.00 0)"/><use href="#g79" transform="translate(1427.7 1427.5) rotate(-19.478) translate(0 1387) scale(0.08545 -0.08545) translate(-785.00 0)"/><use href="#g76" transform="translate(1427.7 1427.5) rotate(-24.297) translate(0 1387) scale(0.08545 -0.08545) translate(-579.00 0)"/><use href="#g73" transform="translate(1427.7 1427.5) rotate(-27.330) translate(0 1387) scale(0.08545 -0.08545) translate(-279.00 0)"/><use href="#g86" transform="translate(1427.7 1427.5) rotate(-30.882) translate(0 1387) scale(0.08545 -0.08545) translate(-726.00 0)"/><use href="#g69" transform="translate(1427.7 1427.5) rotate(-35.629) translate(0 1387) scale(0.08545 -0.08545) translate(-617.50 0)"/><use href="#g73" transform="translate(1427.7 1427.5) rotate(-38.798) translate(0 1387) scale(0.08545 -0.08545) translate(-279.00 0)"/><use href="#g82" transform="translate(1427.7 1427.5) rotate(-42.129) translate(0 1387) scale(0.08545 -0.08545) translate(-663.50 0)"/><use href="#g65" transform="translate(1427.7 1427.5) rotate(-47.038) translate(0 1387) scale(0.08545 -0.08545) translate(-726.00 0)"/></g><path d="M280.03 2090C175.481 1908.92 115.273 1705.66 104.33 1496.85C93.3861 1288.03 132.018 1079.6 217.066 888.574" stroke-width="26.5" stroke-linecap="round" stroke-linejoin="round" stroke="#211B2B"/><path d="M2574.99 2090C2679.53 1908.92 2739.74 1705.66 2750.69 1496.85C2761.63 1288.03 2723 1079.6 2637.95 888.574" stroke-width="26.5" stroke-linecap="round" stroke-linejoin="round" stroke="#211B2B"/><defs>
+<filter id="filter0_d_72_3" x="1090.82" y="465.747" width="659.995" height="1944.9" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-18.55" dy="18.55"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.129412 0 0 0 0 0.105882 0 0 0 0 0.168627 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_72_3"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_72_3" result="shape"/>
+</filter>
+<path id="stroke0_72_3" d="M1540.9 502.915C1575 501.321 1603.65 528.256 1604.16 562.385L1623.17 1829.18C1623.22 1832.43 1619.33 1834.38 1616.69 1832.48C1596.86 1818.17 1533.29 1778.49 1438.35 1778.49C1343.02 1778.49 1280.82 1830.55 1261.82 1848.95C1259.42 1851.27 1255.17 1849.74 1254.89 1846.42L1146.69 584.2C1143.76 550.024 1169.83 520.263 1204.09 518.661L1540.9 502.915ZM1450.08 2355C1377.58 2355 1315.33 2329.37 1263.34 2278.11C1211.35 2226.11 1185.72 2163.87 1186.45 2091.37C1185.72 2019.6 1211.35 1958.09 1263.34 1906.83C1315.33 1855.57 1377.58 1829.94 1450.08 1829.94C1519.65 1829.94 1580.8 1855.57 1633.52 1906.83C1686.25 1958.09 1712.98 2019.6 1713.71 2091.37C1712.98 2139.7 1700.16 2184.01 1675.26 2224.28C1651.1 2263.83 1619.24 2295.68 1579.7 2319.85C1540.15 2343.28 1496.95 2355 1450.08 2355Z"/>
+<path id="g65" d="M51 0H298L431 393H1017L1154 0H1401L861 1490H581ZM496 583 579 829C616 943 662 1098 720 1311C779 1100 824 948 864 829L950 583Z"/><path id="g68" d="M650 0C1103 0 1366 281 1366 747C1366 1210 1103 1490 664 1490H165V0ZM393 200V1290H649C974 1290 1142 1097 1142 747C1142 394 974 200 637 200Z"/><path id="g69" d="M165 0H1109V196H393V655H1053V850H393V1294H1103V1490H165Z"/><path id="g71" d="M791 -20C1152 -20 1413 216 1413 593V764H825V576H1190C1185 338 1028 188 792 188C529 188 339 386 339 745C339 1105 532 1302 783 1302C979 1302 1112 1193 1166 1019H1400C1350 1309 1102 1510 781 1510C395 1510 113 1220 113 744C113 273 386 -20 791 -20Z"/><path id="g73" d="M393 1490H165V0H393Z"/><path id="g76" d="M165 0H1068V196H393V1490H165Z"/><path id="g78" d="M165 0H396V795C396 872 388 1026 379 1213C487 1013 544 910 617 793L1120 0H1384V1490H1153V642C1153 556 1157 417 1168 273C1102 416 1035 529 989 603L428 1490H165Z"/><path id="g79" d="M786 -20C1172 -20 1457 268 1457 744C1457 1222 1172 1510 786 1510C399 1510 113 1222 113 744C113 268 399 -20 786 -20ZM786 188C530 188 339 384 339 744C339 1105 530 1302 786 1302C1040 1302 1231 1106 1231 744C1231 384 1040 188 786 188Z"/><path id="g80" d="M165 0H393V522H697C1043 522 1215 731 1215 1006C1215 1281 1044 1490 699 1490H165ZM393 715V1295H673C894 1295 984 1174 984 1006C984 838 894 715 675 715Z"/><path id="g82" d="M165 0H393V563H697C701 563 706 563 710 563L1012 0H1271L943 602C1124 670 1215 822 1215 1022C1215 1297 1044 1490 699 1490H165ZM393 758V1295H673C893 1295 984 1190 984 1022C984 855 893 758 675 758Z"/><path id="g84" d="M90 1294H555V0H784V1294H1247V1490H90Z"/><path id="g86" d="M590 0H869L1401 1490H1154L872 661C835 548 789 395 731 183C672 391 625 548 587 661L297 1490H51Z"/><path id="g211" d="M786 -20C1172 -20 1457 268 1457 744C1457 1222 1172 1510 786 1510C399 1510 113 1222 113 744C113 268 399 -20 786 -20ZM786 188C530 188 339 384 339 744C339 1105 530 1302 786 1302C1040 1302 1231 1106 1231 744C1231 384 1040 188 786 188ZM697 1635H865L1063 1934H837Z"/></defs></svg>
+</section>
+
+<section id="fim">
+  <div class="wrap cols">
+    <div><h2 data-c>Obrigado</h2><p data-r>Feito por <a href="https://www.instagram.com/feeh.lab/" target="_blank" rel="noopener noreferrer">@feeh.lab</a></p></div>
+    <img id="illu" src="assets/ilustracao-feehlab.webp" alt="Ilustração da feeh.lab: pessoa de cabelo cacheado piscando e apontando com o dedo">
+  </div>
+</section>
+
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/ScrollTrigger.min.js"></script>
+<script src="vendor/lenis.min.js"></script>
+<script>
+const $=s=>document.querySelector(s), rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+const lg=$('#lg'); $('#lg2').src=lg.src;
+
+/* ---------- interações (funcionam com ou sem animação) ---------- */
+const hero=$('#hero');
+if(!rm) hero.addEventListener('pointermove',e=>{const r=hero.getBoundingClientRect();
+  lg.style.setProperty('--rx',((e.clientX-r.left)/r.width-.5)*14+'deg');
+  lg.style.setProperty('--ry',(-((e.clientY-r.top)/r.height-.5))*14+'deg');});
+
+const duel=$('#duel'), knob=$('#knob'); let drag=false, demo=null;
+function setX(p){p=Math.max(0,Math.min(100,p));duel.style.setProperty('--x',p+'%');knob.setAttribute('aria-valuenow',Math.round(p));}
+function fromEvent(e){const r=duel.getBoundingClientRect();setX((e.clientX-r.left)/r.width*100);}
+duel.addEventListener('pointerdown',e=>{if(demo)demo.kill();drag=true;duel.setPointerCapture(e.pointerId);fromEvent(e);});
+duel.addEventListener('pointermove',e=>{if(drag)fromEvent(e);});
+['pointerup','pointercancel'].forEach(t=>duel.addEventListener(t,()=>drag=false));
+knob.addEventListener('keydown',e=>{const v=+knob.getAttribute('aria-valuenow');
+  if(e.key==='ArrowLeft'||e.key==='ArrowDown'){setX(v-5);e.preventDefault();}
+  if(e.key==='ArrowRight'||e.key==='ArrowUp'){setX(v+5);e.preventDefault();}});
+
+const cores=['#211B2B','#F5F3FA','#F05AA6','#FFD84D'];
+function info(h){const r=parseInt(h.slice(1,3),16),g=parseInt(h.slice(3,5),16),b=parseInt(h.slice(5,7),16);
+  const k=1-Math.max(r,g,b)/255,f=v=>k>=1?0:Math.round((1-v/255-k)/(1-k)*100);
+  return{rgb:`rgb(${r}, ${g}, ${b})`,cmyk:`cmyk(${f(r)}%, ${f(g)}%, ${f(b)}%, ${Math.round(k*100)}%)`,dark:(.299*r+.587*g+.114*b)/255<.5};}
+const sw=$('#sw'), stage=$('#stage');
+cores.forEach((h,i)=>{const d=info(h),b=document.createElement('button');
+  b.style.background=h;b.style.color=d.dark?'#F5F3FA':'#211B2B';b.setAttribute('aria-pressed',i===2);
+  b.innerHTML=`<b>${h}</b>${d.rgb}<br>${d.cmyk}`;
+  b.onclick=()=>{[...sw.children].forEach(x=>x.setAttribute('aria-pressed',x===b));stage.style.setProperty('--bg',h);
+    if(window.gsap&&!rm)gsap.fromTo('#lg2',{scale:.88,rotate:-5},{scale:1,rotate:0,duration:1,ease:'elastic.out(1,.45)',overwrite:true});};
+  sw.appendChild(b);});
+
+/* ---------- animações: GSAP + ScrollTrigger + Lenis ---------- */
+if(window.gsap&&window.ScrollTrigger&&!rm){
+  gsap.registerPlugin(ScrollTrigger);
+  if(window.Lenis){const lenis=new Lenis({lerp:.09});lenis.on('scroll',ScrollTrigger.update);
+    gsap.ticker.add(t=>lenis.raf(t*1000));gsap.ticker.lagSmoothing(0);}
+
+  // abertura: o logo "carimba" a tela; ao rolar, sai de cena
+  gsap.from('.logo',{scale:1.4,rotate:-8,opacity:0,duration:1.1,ease:'back.out(1.6)'});
+  gsap.from('#hero p',{y:20,opacity:0,delay:.7,duration:.8});
+  gsap.timeline({scrollTrigger:{trigger:'#hero',start:'top top',end:'bottom top',scrub:true}}).to('#hin',{yPercent:12,scale:.94,ease:'none',duration:1},0).to('#hin',{opacity:0,ease:'none',duration:.35},.65);
+
+  gsap.to('#bar',{scaleX:1,ease:'none',scrollTrigger:{start:0,end:'max',scrub:.3}});
+  gsap.to('.mq',{x:()=>-(document.querySelector('.mq').scrollWidth-innerWidth),ease:'none',scrollTrigger:{trigger:'.band',start:'top bottom',end:'bottom top',scrub:true}});
+
+  // aplicações: rolagem horizontal fixada (criada ANTES dos outros gatilhos, para que as posições abaixo dela contem o espaço do pin)
+  const tr=$('#track'),ap=$('#aplicacoes');ap.style.overflow='hidden';
+  gsap.to(tr,{x:()=>-(tr.scrollWidth-innerWidth),ease:'none',scrollTrigger:{trigger:ap,pin:true,scrub:.6,refreshPriority:1,invalidateOnRefresh:true,end:()=>'+='+(tr.scrollWidth-innerWidth)}});
+
+  // entrada e saída: títulos por palavra/letra, blocos por fade+deslize
+  const wrapWords=(el,chars)=>{const parts=chars?[...el.textContent]:el.textContent.split(' ');
+    el.setAttribute('aria-label',el.textContent);
+    el.innerHTML=parts.map(w=>`<span class="w" aria-hidden="true"><span>${w}</span></span>`).join(chars?'':' ');return el.querySelectorAll('.w>span');};
+  const inout=(el,items,from,to,st)=>{gsap.set(items,from);
+    const show=()=>gsap.to(items,{...to,duration:1,ease:'power4.out',stagger:st,overwrite:true});
+    const hide=y=>gsap.to(items,{...from,yPercent:from.yPercent!==undefined?y:0,y:from.y!==undefined?y:0,duration:.5,ease:'power3.in',stagger:st/3,overwrite:true});
+    ScrollTrigger.create({trigger:el,start:'top 90%',end:'bottom 8%',onEnter:show,onEnterBack:show,
+      onLeave:()=>hide(from.y!==undefined?-50:-110),onLeaveBack:()=>hide(from.y!==undefined?60:110)});};
+  document.querySelectorAll('[data-s]').forEach(h=>inout(h,wrapWords(h),{yPercent:110},{yPercent:0},.07));
+  document.querySelectorAll('[data-c]').forEach(h=>inout(h,wrapWords(h,true),{yPercent:110},{yPercent:0},.05));
+  document.querySelectorAll('[data-r]').forEach(b=>inout(b,b,{y:60,opacity:0},{y:0,opacity:1},0));
+
+  // duelo: demonstra sozinho uma vez, até a pessoa assumir
+  ScrollTrigger.create({trigger:duel,start:'top 70%',once:true,onEnter:()=>{const o={v:50};
+    demo=gsap.timeline({delay:.4}).to(o,{v:20,duration:1.1,ease:'power2.inOut',onUpdate:()=>setX(o.v)})
+      .to(o,{v:80,duration:1.6,ease:'power2.inOut',onUpdate:()=>setX(o.v)}).to(o,{v:50,duration:1,ease:'power2.inOut',onUpdate:()=>setX(o.v)});}});
+
+  // aplicações: rolagem horizontal fixada
+  // título da seção fixada: entra uma vez ao chegar nela (não usa o gatilho padrão, que sumiria com ele durante o pin)
+  const ei=wrapWords($('[data-e]'));gsap.set(ei,{yPercent:110});
+  ScrollTrigger.create({trigger:'#aplicacoes',start:'top 60%',onEnter:()=>gsap.to(ei,{yPercent:0,duration:1,ease:'power4.out',stagger:.07}),onLeaveBack:()=>gsap.to(ei,{yPercent:110,duration:.5})});
+
+  // selo: o texto gira com a rolagem; o "!" dá um pulo ao entrar
+  const O='1427.7 1427.5';
+  gsap.to('#spin',{rotation:360,svgOrigin:O,ease:'none',scrollTrigger:{trigger:'#selo',start:'top bottom',end:'bottom top',scrub:true}});
+  gsap.from('#seal>g:first-child',{scale:.55,rotation:-14,svgOrigin:O,duration:1.3,ease:'back.out(2.2)',scrollTrigger:{trigger:'#selo',start:'top 55%',toggleActions:'play none none reverse'}});
+
+  // final: a ilustração da feeh.lab entra com um pop
+  gsap.from('#illu',{yPercent:25,rotation:8,opacity:0,duration:1.2,ease:'back.out(1.5)',scrollTrigger:{trigger:'#fim',start:'top 55%',toggleActions:'play none none reverse'}});
+  // recalcula posições quando a fonte e a página terminam de carregar
+  addEventListener('load',()=>ScrollTrigger.refresh());
+  if(document.fonts)document.fonts.ready.then(()=>ScrollTrigger.refresh());
+}else{ $('#aplicacoes').style.overflowX='auto'; }
+</script>
+</body>
+</html>
